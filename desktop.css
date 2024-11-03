@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  align-content: center;
+  font-size: 5em;
+}
+
+h2 {
+  padding-bottom: 1em;
+}
+
+#burger {
+  padding-top: 1em;
+}
+
+header .header1 img {
+  width: 4em;
+  height: 4em;
+}
+
+div.logoabeille {
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+header .abeille {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+main {
+  margin-left: 0;
+  margin-right: 0;
+}
